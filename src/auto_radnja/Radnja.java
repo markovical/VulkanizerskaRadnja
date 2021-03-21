@@ -22,9 +22,9 @@ public interface Radnja {
 	/**
 	 * Pronalazi gumu na osnovu parametra markaModel i vraca u novu listu
 	 * 
-	 * @param markaModel
+	 * @param markaModel Marka i model kao String
 	 * @return null ako je markaModel null
-	 * @return novaLista ako su pronadjene gume po parametru markaModel
+	 * 
 	 */
 	LinkedList<AutoGuma> pronadjiGumu(String markaModel);
 }
